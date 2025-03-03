@@ -2,7 +2,7 @@
 # Hi there, I'm Makrious Ayman Riad! 👋
 
 👤 **About Me**  
-I’m Makrious Ayman Riad, a passionate Computer Science student specializing in Data Science at Alexandria University. Born and raised in Alexandria, Egypt, I have a deep interest in the fields of competitive programming, software engineering, machine learning, and data science.
+I’m Makrious Ayman Riad, a passionate Computer Science student specializing in Data Science at Alexandria University. Born and raised in Alexandria, Egypt, I have a deep interest in competitive programming, software engineering, machine learning, data science, and web development.
 
 📚 **Education**  
 I’m currently studying in the Data Science department at Alexandria University. My academic background equips me with a strong foundation in problem-solving, data-driven decision-making, and cutting-edge technologies.
