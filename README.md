@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/wave.gif" width="50" />
-
 # 🌟 Hi, I'm **Makrious Ayman** — AI/ML Software Engineer
 
 I'm an **AI/ML Software Engineer** and **Data Science student** passionate about building scalable machine-learning systems, solving real-world problems, and exploring the full stack of model development — from **data pipelines** to **deployment**.
