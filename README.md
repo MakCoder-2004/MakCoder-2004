@@ -8,10 +8,6 @@ I specialize in **deep learning**, **computer vision**, **NLP**, and **MLOps**, 
 
 ## 🚀 What I Do
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/ai-brain.gif" width="350" />
-</p>
-
 ### 🔹 **Build Intelligent ML Systems**
 
 I design & implement ML and deep-learning solutions using:
@@ -38,10 +34,6 @@ My background in **competitive programming** helps me build:
 ---
 
 ## 🔥 Featured Projects
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/projects.gif" width="350" />
-</p>
 
 ### 🧠 **Image Classification Using CNN (TensorFlow)**
 
@@ -71,10 +63,6 @@ A structured and practical learning resource including:
 ---
 
 ## 🛠️ Technical Skillset
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/skills.gif" width="350" />
-</p>
 
 **Languages:** Python • C++ • JavaScript • SQL
 **ML/DL Frameworks:** TensorFlow • OpenCV • YOLO • HuggingFace • Pandas • NumPy • Matplotlib • Seaborn
