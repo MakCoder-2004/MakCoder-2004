@@ -33,35 +33,6 @@ My background in **competitive programming** helps me build:
 
 ---
 
-## 🔥 Featured Projects
-
-### 🧠 **Image Classification Using CNN (TensorFlow)**
-
-* Developed a CIFAR-10 CNN with data augmentation, batch normalization, and dropout
-* Achieved strong performance and deployed via Streamlit for real-time prediction
-* *Skills: CNNs, TensorFlow, Deployment*
-
-### 💻 **Laptop Price Prediction**
-
-* Built an ML regression pipeline with feature engineering and Random Forest
-* Deployed a real-time inference app with automated preprocessing
-* *Skills: ML pipeline, deployment*
-
-### 📊 **Superstore Customer & Sales Analytics**
-
-* Conducted EDA, segmentation, clustering, and RFM analysis
-* Produced actionable insights for marketing and inventory decisions
-* *Skills: Analytics, visualization, business intelligence*
-
-### 📘 **AI/ML Software Engineering Notes**
-
-A structured and practical learning resource including:
-
-* ML, DL, NLP, CV, data handling, deployment
-* Theory + hands-on code examples
-
----
-
 ## 🛠️ Technical Skillset
 
 **Languages:** Python • C++ • JavaScript • SQL
