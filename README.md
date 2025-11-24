@@ -64,9 +64,9 @@ Gained strong DSA foundations and analytical problem-solving skills.
 
 ## 🌐 Connect with Me
 
-🔗 LinkedIn: linkedin.com/in/makrious-ayman-84985621b/
-💻 GitHub: github.com/MakCoder-2004
-📧 Email: [maaakrious2004@gmail.com](mailto:maaakrious2004@gmail.com)
+🔗 LinkedIn: linkedin.com/in/makrious-ayman-84985621b/ <br>
+💻 GitHub: github.com/MakCoder-2004 <br>
+📧 Email: [maaakrious2004@gmail.com](mailto:maaakrious2004@gmail.com) <br>
 
 ---
 
