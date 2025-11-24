@@ -1,20 +1,126 @@
+<img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/wave.gif" width="50" />
 
-# Hi there, I'm Makrious Ayman Riad! 👋
+# 🌟 Hi, I'm **Makrious Ayman** — AI/ML Software Engineer
 
-👤 **About Me**  
-I’m Makrious Ayman Riad, a passionate Computer Science student specializing in Data Science at Alexandria University. Born and raised in Alexandria, Egypt, I have a deep interest in competitive programming, software engineering, machine learning, data science, and web development.
+I'm an **AI/ML Software Engineer** and **Data Science student** passionate about building scalable machine-learning systems, solving real-world problems, and exploring the full stack of model development — from **data pipelines** to **deployment**.
 
-📚 **Education**  
-I’m currently studying in the Data Science department at Alexandria University. My academic background equips me with a strong foundation in problem-solving, data-driven decision-making, and cutting-edge technologies.
+I specialize in **deep learning**, **computer vision**, **NLP**, and **MLOps**, with hands-on experience developing models, optimizing them, and deploying them as interactive web apps.
 
-💡 **Passions**  
-I’m highly enthusiastic about:
-- **Competitive Programming** – I love the thrill of tackling complex algorithms and optimizing solutions.
-- **Software Engineering** – Building efficient and impactful software is a major motivator for me.
-- **Machine Learning & Data Science** – I am eager to explore how data can transform insights into real-world applications.
+---
 
-🌐 **Connect with Me**  
-Feel free to check out my [LinkedIn profile](https://www.linkedin.com/in/makrious-ayman-84985621b/) to learn more about my professional journey and to connect with me!
+## 🚀 What I Do
 
-🚀 **Let's Collaborate!**  
-I'm open to new opportunities, collaborations, and challenges. Whether it’s contributing to open-source projects, learning new technologies, or exploring innovative ideas, I’m always excited to grow and contribute to the tech community.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/ai-brain.gif" width="350" />
+</p>
+
+### 🔹 **Build Intelligent ML Systems**
+
+I design & implement ML and deep-learning solutions using:
+
+* TensorFlow, OpenCV, YOLO, HuggingFace
+* Python, Pandas, NumPy
+* End-to-end ML pipelines (training → evaluation → deployment)
+
+### 🔹 **Deploy Models for Real Use**
+
+I love making ML practical, using:
+
+* Docker, Streamlit, REST APIs, Django
+* Azure Machine Learning, Git/GitHub
+
+### 🔹 **Solve Hard Problems**
+
+My background in **competitive programming** helps me build:
+
+* Efficient algorithms
+* Optimized ML pipelines
+* Clean, maintainable software
+
+---
+
+## 🔥 Featured Projects
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/projects.gif" width="350" />
+</p>
+
+### 🧠 **Image Classification Using CNN (TensorFlow)**
+
+* Developed a CIFAR-10 CNN with data augmentation, batch normalization, and dropout
+* Achieved strong performance and deployed via Streamlit for real-time prediction
+* *Skills: CNNs, TensorFlow, Deployment*
+
+### 💻 **Laptop Price Prediction**
+
+* Built an ML regression pipeline with feature engineering and Random Forest
+* Deployed a real-time inference app with automated preprocessing
+* *Skills: ML pipeline, deployment*
+
+### 📊 **Superstore Customer & Sales Analytics**
+
+* Conducted EDA, segmentation, clustering, and RFM analysis
+* Produced actionable insights for marketing and inventory decisions
+* *Skills: Analytics, visualization, business intelligence*
+
+### 📘 **AI/ML Software Engineering Notes**
+
+A structured and practical learning resource including:
+
+* ML, DL, NLP, CV, data handling, deployment
+* Theory + hands-on code examples
+
+---
+
+## 🛠️ Technical Skillset
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/main/assets/skills.gif" width="350" />
+</p>
+
+**Languages:** Python • C++ • JavaScript • SQL
+**ML/DL Frameworks:** TensorFlow • OpenCV • YOLO • HuggingFace • Pandas • NumPy • Matplotlib • Seaborn
+**Core Expertise:** Machine Learning • Deep Learning • NLP • Computer Vision • Optimization • Feature Engineering
+**Tools & Deployment:** Git/GitHub • Docker • Streamlit • Django • REST APIs • Azure ML • Jupyter Notebook
+
+---
+
+## 🎓 Education & Training
+
+🎓 **B.Sc. in Data Science (Computer Science)** — Alexandria University (CGPA: 3.3)
+
+📘 **Machine Learning Trainee — National Telecommunication Institute**
+120+ hours covering ML foundations, deep learning, and practical applications.
+
+🏆 **Competitive Programming Trainee — Coach Academy**
+Gained strong DSA foundations and analytical problem-solving skills.
+
+---
+
+## 🏅 Certifications
+
+* Deep Learning Specialization — DeepLearning.AI
+* Machine Learning Specialization — Stanford / DeepLearning.AI
+* Python 3 Programming — University of Michigan
+
+---
+
+## 🌐 Connect with Me
+
+🔗 LinkedIn: linkedin.com/in/makrious-ayman-84985621b/
+💻 GitHub: github.com/MakCoder-2004
+📧 Email: [maaakrious2004@gmail.com](mailto:maaakrious2004@gmail.com)
+
+---
+
+## 🤝 Let’s Build Something Impactful
+
+I'm open to opportunities in:
+
+* Machine Learning Engineering
+* AI Research & Development
+* Computer Vision / NLP
+* MLOps & Deployment
+* Software Engineering
+
+If you're building something exciting — let's connect!
