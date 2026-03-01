@@ -1,4 +1,4 @@
-# 🌟 Hi, I'm **Makrious Ayman** — AI/ML Software Engineer
+# 🌟 Hi, I'm **Makrious Ayman**
 
 I'm an **AI/ML Software Engineer** and **Data Science student** passionate about building scalable machine-learning systems, solving real-world problems, and exploring the full stack of model development — from **data pipelines** to **deployment**.
 
