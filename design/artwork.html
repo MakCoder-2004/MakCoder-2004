@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Makrious Ayman — profile artwork</title>
+<style>
+@font-face { font-family: Space; src: url('./fonts/SpaceGrotesk.ttf'); font-weight: 300 700; }
+@font-face { font-family: Manrope; src: url('./fonts/Manrope.ttf'); font-weight: 200 800; }
+:root { --ink:#111a30; --panel:#192640; --ice:#f1f4ff; --muted:#b5c2da; --accent:#a6b1ff; --peach:#ffbdad; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--ink); color:var(--ice); font-family:Manrope, sans-serif; }
+.hero { width:1200px; height:480px; position:relative; overflow:hidden; padding:45px 52px; background:radial-gradient(ellipse at 87% 44%, #293562 0%, #17223c 35%, var(--ink) 70%); }
+.hero::after { content:''; position:absolute; left:52px; right:52px; bottom:48px; height:1px; background:#40506e; }
+.identity { display:flex; align-items:center; gap:14px; font-size:23px; font-weight:650; letter-spacing:-.6px; }
+.mark { width:35px; height:35px; border:1px solid #7887b9; border-radius:10px; display:grid; place-items:center; color:var(--accent); font:700 14px Space; letter-spacing:-1px; }
+h1 { margin:40px 0 20px; max-width:680px; font:600 66px/1.08 Space, sans-serif; letter-spacing:-3.5px; }
+.subhead { font-size:18px; line-height:1.6; color:var(--muted); margin:0; }
+.discipline { position:absolute; left:52px; bottom:19px; font:500 12px Manrope; color:var(--muted); }
+.handle { position:absolute; right:52px; bottom:19px; font:500 12px Manrope; color:var(--muted); }
+.scene { position:absolute; width:460px; height:350px; right:20px; top:51px; }
+.scene svg { position:absolute; inset:0; width:100%; height:100%; }
+.orbit { position:absolute; border:1px solid #46568066; border-radius:50%; width:292px; height:292px; top:25px; left:104px; }
+.orbit.inner { width:232px; height:232px; top:55px; left:134px; border-style:dashed; border-color:#64719e55; }
+.dot { width:7px; height:7px; border-radius:50%; background:var(--peach); position:absolute; left:383px; top:114px; box-shadow:0 0 18px #ffbdad66; }
+.paper { position:absolute; width:111px; height:119px; padding:17px; border-radius:10px; background:#253454; border:1px solid #7887b977; box-shadow:0 18px 30px #070d2040; transform:rotate(-12deg); left:28px; top:47px; }
+.paper::before { content:''; display:block; width:24px; height:22px; margin-bottom:13px; background:linear-gradient(135deg,#b4bfff,#7c8cda); border-radius:4px; }
+.paper span { display:block; height:3px; background:#8695bc; border-radius:2px; margin-bottom:6px; }
+.paper span:last-child { width:55%; }
+.paper.back { top:37px; left:43px; background:#1b2948; transform:rotate(3deg); }
+.core { position:absolute; width:101px; height:101px; left:194px; top:113px; border-radius:27px; border:1px solid #c9cfff; background:linear-gradient(140deg,#b9c2ff,#7180d9); box-shadow:0 0 0 9px #a6b1ff0a,0 0 0 20px #a6b1ff06,0 18px 50px #0004; display:grid; place-items:center; transform:rotate(-8deg); }
+.core svg { position:static; width:52px; height:52px; color:#182443; transform:rotate(8deg); }
+.answer { position:absolute; width:175px; height:106px; left:256px; top:226px; background:#1b2a46; border:1px solid #6e7fa3; border-radius:12px; padding:17px; box-shadow:0 16px 30px #070d2040; }
+.answer b { display:flex; align-items:center; gap:7px; font-size:13px; font-weight:600; }
+.check { display:inline-grid; place-items:center; background:var(--peach); color:var(--ink); width:17px; height:17px; border-radius:50%; font:700 12px Manrope; }
+.answer-line { height:4px; width:95%; margin-top:12px; border-radius:2px; background:#8898ba; }
+.answer-line.short { width:68%; margin-top:7px; }
+.cite { position:absolute; right:16px; bottom:13px; color:var(--accent); font:600 11px Manrope; }
+.scene-label { position:absolute; color:#c4cde6; font-size:12px; }
+.label-source { left:30px; top:187px; }
+.label-retrieve { left:190px; top:79px; }
+.mobile .hero { width:720px; height:780px; padding:42px; }
+.mobile .identity { font-size:27px; }
+.mobile h1 { font-size:76px; margin-top:39px; max-width:640px; }
+.mobile .subhead { font-size:24px; }
+.mobile .scene { top:390px; right:100px; transform:scale(.95); transform-origin:center top; }
+.mobile .hero::after { left:42px; right:42px; bottom:48px; }
+.mobile .discipline { left:42px; font-size:14px; }
+.mobile .handle { right:42px; font-size:14px; }
+.pipeline { width:1200px; height:148px; position:relative; background:var(--ink); overflow:hidden; }
+.pipeline > svg { position:absolute; width:100%; height:100%; inset:0; }
+.stage { position:absolute; top:36px; width:212px; height:76px; padding:14px 17px 14px 57px; background:var(--panel); border:1px solid #4b5d80; border-radius:12px; }
+.stage svg { position:absolute; left:19px; top:24px; width:22px; height:22px; stroke:var(--accent); fill:none; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+.stage b { display:block; font:600 17px/1.5 Space; }
+.stage small { color:var(--muted); font-size:12px; }
+.stage:nth-of-type(1) { left:38px; }
+.stage:nth-of-type(2) { left:342px; }
+.stage:nth-of-type(3) { left:646px; }
+.stage:nth-of-type(4) { left:950px; }
+.packet { fill:var(--peach); filter:drop-shadow(0 0 5px #ffbdad88); }
+.flow-mobile { display:none; }
+.mobile .pipeline { width:720px; height:266px; }
+.mobile .pipeline .flow-desktop { display:none; }
+.mobile .pipeline .flow-mobile { display:block; }
+.mobile .stage { width:286px; top:26px; }
+.mobile .stage:nth-of-type(1) { left:30px; }
+.mobile .stage:nth-of-type(2) { left:404px; }
+.mobile .stage:nth-of-type(3) { left:404px; top:164px; }
+.mobile .stage:nth-of-type(4) { left:30px; top:164px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation:none !important; transition:none !important; } }
+</style>
+</head>
+<body>
+<section class="hero" aria-label="Makrious Ayman, AI and software engineering">
+  <div class="identity"><span class="mark">MA</span> Makrious Ayman</div>
+  <h1>AI that works<br>beyond the demo.</h1>
+  <p class="subhead">Grounded answers. Thoughtful tools.<br>Software built around real problems.</p>
+  <div class="scene" aria-label="Source documents, retrieval engine, and cited answer">
+    <div class="orbit"></div><div class="orbit inner"></div><div class="dot"></div>
+    <svg viewBox="0 0 460 350" fill="none" aria-hidden="true">
+      <path d="M121 118H155Q170 118 170 140V163H194" stroke="#a6b1ff" stroke-width="1.5"/>
+      <path d="M244 214V265Q244 279 256 279" stroke="#ffbdad" stroke-width="1.5"/>
+      <circle cx="166" cy="133" r="4" fill="#a6b1ff"/>
+      <circle cx="244" cy="244" r="4" fill="#ffbdad"/>
+      <path d="M376 65v14m-7-7h14M81 277v10m-5-5h10" stroke="#7e8db8"/>
+    </svg>
+    <div class="paper back"></div><div class="paper"><span></span><span></span><span></span></div>
+    <span class="scene-label label-source">Start with sources</span>
+    <span class="scene-label label-retrieve">Retrieve & reason</span>
+    <div class="core"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 5 41 15v18L24 43 7 33V15L24 5Z" stroke="currentColor" stroke-width="1.6"/><path d="m7 15 17 10 17-10M24 25v18M15 10l17 10v9l-8 5-8-5v-9l17-10" stroke="currentColor" stroke-width="1.6"/><circle cx="24" cy="25" r="4" fill="currentColor"/></svg></div>
+    <div class="answer"><b><span class="check">✓</span> Cited answer</b><div class="answer-line"></div><div class="answer-line short"></div><span class="cite">[1] &nbsp; [2] &nbsp; [3]</span></div>
+  </div>
+  <span class="discipline">AI / ML & software engineering</span><span class="handle">@MakCoder-2004</span>
+</section>
+<section class="pipeline" aria-label="Sources to retrieval to validation to usable software">
+  <svg class="flow-mobile" viewBox="0 0 720 266" fill="none" aria-hidden="true"><path d="M316 64h88m143 38v62M404 202h-88" stroke="#697ba4" stroke-width="1.5"/><path d="m393 60 5 4-5 4m150 85 4 5 4-5m-224 45-5 4 5 4" stroke="#a6b1ff" stroke-width="1.5"/></svg>
+  <svg class="flow-desktop" viewBox="0 0 1200 148" aria-hidden="true">
+    <path d="M250 74H342M554 74H646M858 74H950" stroke="#697ba4" stroke-width="1.5"/>
+    <path d="m331 70 5 4-5 4m304-8 5 4-5 4m304-8 5 4-5 4" fill="none" stroke="#a6b1ff" stroke-width="1.5"/>
+    <circle class="packet" id="packet" cx="265" cy="74" r="4"/>
+  </svg>
+  <div class="stage"><svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H4V3h3Zm7 0v5h4M8 12h6m-6 4h8"/></svg><b>Sources</b><small>Documents & data</small></div>
+  <div class="stage"><svg viewBox="0 0 24 24"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5M7 10h6m-3-3v6"/></svg><b>Retrieval</b><small>Relevant evidence</small></div>
+  <div class="stage"><svg viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/></svg><b>Validation</b><small>Explicit checks</small></div>
+  <div class="stage"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8m-4-3v3M3 8h18"/></svg><b>Useful software</b><small>People in control</small></div>
+</section>
+<script>
+if (new URLSearchParams(location.search).has('mobile')) document.body.classList.add('mobile');
+// Deterministic keyframes: the browser renders HTML/CSS before every capture.
+window.setFrame = (progress) => {
+  const stage = Math.min(2, Math.floor(progress * 3));
+  const local = Math.min(1, progress * 3 - stage);
+  const eased = local * local * (3 - 2 * local);
+  document.querySelector('#packet').setAttribute('cx', 259 + stage * 304 + eased * 74);
+};
+</script>
+</body>
+</html>
