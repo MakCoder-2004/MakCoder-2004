@@ -20,7 +20,7 @@
 ### 🧰 Toolbox
 
 <p align="center">
-  <img src="assets/skills.svg" width="100%" alt="Python, C++, TensorFlow, PyTorch, OpenCV, YOLO, HuggingFace, Docker, Streamlit, Django, Azure ML and more">
+  <img src="assets/skills.svg" width="100%" alt="AI engineering and ML/DL toolbox: LangChain, LangGraph, Ollama, llama.cpp, PyTorch, TensorFlow, scikit-learn, Transformers, Hugging Face, Chroma, AI Agents, MCP, LLMOps, Python, OpenCV, Docker and more">
 </p>
 
 ### 🚀 Featured Projects
@@ -47,14 +47,14 @@
 ### 📊 Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MakCoder-2004&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MakCoder-2004&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+  <img width="360" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MakCoder-2004&theme=tokyonight" alt="GitHub stats">
+  <img width="360" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MakCoder-2004&theme=tokyonight" alt="Top languages by commit activity">
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=MakCoder-2004&theme=tokyonight&hide_border=true" alt="Streak">
+  <img src="https://streak-stats.demolab.com?user=MakCoder-2004&theme=tokyonight&hide_border=true&disable_animations=true" alt="Streak">
 </p>
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MakCoder-2004&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph">
+  <img width="100%" src="https://ghchart.rshah.org/00e5ff/MakCoder-2004" alt="GitHub contribution calendar">
 </p>
 
 <!-- 🐍 OPTIONAL: contribution snake. Add .github/workflows/snake.yml, run it once, then uncomment.
