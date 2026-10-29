@@ -39,7 +39,7 @@
 | | |
 |---|---|
 | **🔨 Building now** | Multimodal RAG for research papers · Natural-language → SQL analytics · Agentic dev workflows |
-| **🎓 Education** | B.Sc. Data Science (Computer Science), Alexandria University |
+| **🤖 AI Engineering** | AI agents · LLMs · RAG · orchestration · model deployment |
 | **🧠 Training** | Machine Learning, National Telecommunication Institute (120+ hrs) · Competitive Programming, Coach Academy |
 | **🏅 Certified** | Deep Learning Specialization · Machine Learning Specialization · Python 3 Programming |
 | **💼 Open to** | ML Engineering · AI R&D · Computer Vision / NLP · MLOps · Software Engineering |
