@@ -1,83 +1,55 @@
-# 🌟 Hi, I'm **Makrious Ayman**
+<p align="center">
+  <img src="assets/header.svg" alt="Makrious Ayman · AI/ML Engineer" width="100%">
+</p>
 
-I'm an **AI/ML Software Engineer** and **Data Science student** passionate about building scalable machine-learning systems, solving real-world problems, and exploring the full stack of model development — from **data pipelines** to **deployment**.
+<p align="center">
+  <a href="https://www.linkedin.com/in/makrious-ayman-84985621b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:maaakrious2004@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/MakCoder-2004?tab=repositories"><img src="https://img.shields.io/badge/Repositories-32-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
+  <img src="https://komarev.com/ghpvc/?username=MakCoder-2004&label=PROFILE%20VIEWS&style=for-the-badge&color=1f6feb" alt="Profile views">
+</p>
 
-I specialize in **deep learning**, **computer vision**, **NLP**, and **MLOps**, with hands-on experience developing models, optimizing them, and deploying them as interactive web apps.
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
----
+<p align="center">
+  <img src="assets/terminal.svg" width="88%" alt="Terminal: whoami">
+</p>
 
-## 🚀 What I Do
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
-### 🔹 **Build Intelligent ML Systems**
+### 🧰 Toolbox
 
-I design & implement ML and deep-learning solutions using:
+<p align="center">
+  <img src="assets/skills.svg" width="100%" alt="AI engineering and ML/DL toolbox: Machine Learning, Deep Learning, LangChain, LangGraph, Ollama, llama.cpp, PyTorch, TensorFlow, scikit-learn, Transformers, AI Agents, MCP, LLMOps, fine-tuning, SFT, PEFT, LoRA, QLoRA, DPO, RLHF, instruction tuning and quantization">
+</p>
 
-* TensorFlow, OpenCV, YOLO, HuggingFace
-* Python, Pandas, NumPy
-* End-to-end ML pipelines (training → evaluation → deployment)
+### 🚀 Featured Projects
 
-### 🔹 **Deploy Models for Real Use**
+<p align="center">
+  <a href="https://github.com/MakCoder-2004/maks-agentic-workflow"><img src="assets/card-1.svg" width="49%" alt="maks-agentic-workflow"></a>
+  <a href="https://github.com/MakCoder-2004/ATS-CV-Creator"><img src="assets/card-2.svg" width="49%" alt="ATS-CV-Creator"></a>
+  <a href="https://github.com/MakCoder-2004/Computer-Vision-Projects"><img src="assets/card-3.svg" width="49%" alt="Computer-Vision-Projects"></a>
+  <a href="https://github.com/MakCoder-2004/Natural-Language-to-SQL"><img src="assets/card-4.svg" width="49%" alt="Natural-Language-to-SQL"></a>
+  <a href="https://github.com/MakCoder-2004/Research-paper-Multimodal-RAG"><img src="assets/card-5.svg" width="49%" alt="Research-paper-Multimodal-RAG"></a>
+  <a href="https://github.com/MakCoder-2004?tab=repositories"><img src="assets/card-6.svg" width="49%" alt="More on my GitHub  →"></a>
+</p>
 
-I love making ML practical, using:
+### 📊 Activity
 
-* Docker, Streamlit, REST APIs, Django
-* Azure Machine Learning, Git/GitHub
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=MakCoder-2004&theme=tokyonight&hide_border=true&disable_animations=true" alt="Streak">
+</p>
 
-### 🔹 **Solve Hard Problems**
+### 🐍 Watch My Contributions Get Eaten
 
-My background in **competitive programming** helps me build:
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake.svg">
+  <img alt="Animated snake eating MakCoder-2004's GitHub contributions" src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake-dark.svg" width="100%">
+</picture>
+</div>
 
-* Efficient algorithms
-* Optimized ML pipelines
-* Clean, maintainable software
-
----
-
-## 🛠️ Technical Skillset
-
-**Languages:** Python • C++ • JavaScript • SQL
-**ML/DL Frameworks:** TensorFlow • OpenCV • YOLO • HuggingFace • Pandas • NumPy • Matplotlib • Seaborn
-**Core Expertise:** Machine Learning • Deep Learning • NLP • Computer Vision • Optimization • Feature Engineering
-**Tools & Deployment:** Git/GitHub • Docker • Streamlit • Django • REST APIs • Azure ML • Jupyter Notebook
-
----
-
-## 🎓 Education & Training
-
-🎓 **B.Sc. in Data Science (Computer Science)** — Alexandria University (CGPA: 3.3)
-
-📘 **Machine Learning Trainee — National Telecommunication Institute**
-120+ hours covering ML foundations, deep learning, and practical applications.
-
-🏆 **Competitive Programming Trainee — Coach Academy**
-Gained strong DSA foundations and analytical problem-solving skills.
-
----
-
-## 🏅 Certifications
-
-* Deep Learning Specialization — DeepLearning.AI
-* Machine Learning Specialization — Stanford / DeepLearning.AI
-* Python 3 Programming — University of Michigan
-
----
-
-## 🌐 Connect with Me
-
-🔗 LinkedIn: [linkedin.com/in/makrious-ayman-84985621b/](linkedin.com/in/makrious-ayman-84985621b/) <br>
-💻 GitHub: github.com/MakCoder-2004 <br>
-📧 Email: [maaakrious2004@gmail.com](mailto:maaakrious2004@gmail.com) <br>
-
----
-
-## 🤝 Let’s Build Something Impactful
-
-I'm open to opportunities in:
-
-* Machine Learning Engineering
-* AI Research & Development
-* Computer Vision / NLP
-* MLOps & Deployment
-* Software Engineering
-
-If you're building something exciting — let's connect!
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Let's build something impactful">
+</p>
