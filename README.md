@@ -1,93 +1,136 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.png">
-  <img src="./assets/hero.png" alt="Makrious Ayman — AI that works beyond the demo. Grounded answers, thoughtful tools, and software built around real problems." width="1200">
-</picture>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/makrious-ayman-84985621b/"><img src="https://img.shields.io/badge/LinkedIn-Let%27s_connect-263655?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=17223C" alt="Connect on LinkedIn"></a>
-  <a href="mailto:maaakrious2004@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-263655?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=17223C" alt="Email Makrious"></a>
-  <a href="https://github.com/MakCoder-2004?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_my_work-263655?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=17223C" alt="Explore my repositories"></a>
-</p>
-
-I'm **Makrious**, an **AI / ML Software Engineer** building applications that connect models, data, and useful interfaces. My work spans **multimodal RAG, computer vision, and AI-powered developer tools**, with Python and TypeScript connecting the pieces.
-
-I care about what happens after a model responds: **Can you trace the answer? Inspect the query? Review the changes?** That's where much of my engineering work lives.
+<!-- ======================== INTRO ======================== -->
+<div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/pipeline-mobile.png">
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pipeline.png">
-  <img src="./assets/pipeline.gif" alt="My engineering approach: start with sources, retrieve and reason, validate and review, then make it usable." width="1200">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2%2C50:6366F1%2C100:A855F7&amp;height=240&amp;section=header&amp;text=Makrious%20Ayman&amp;fontSize=52&amp;fontColor=ffffff&amp;fontAlignY=36&amp;desc=AI%20Engineer&amp;descAlignY=58&amp;descSize=24">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2,50:6366F1,100:A855F7&amp;height=240&amp;section=header&amp;text=Makrious%20Ayman&amp;fontSize=52&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=36&amp;desc=AI%20Engineer&amp;descAlignY=58&amp;descSize=24" width="100%" alt="Makrious Ayman — AI Engineer">
 </picture>
 
-## Selected work
+### Machine Learning · Deep Learning · Generative AI
 
-### [Multimodal Research RAG](https://github.com/MakCoder-2004/Research-paper-Multimodal-RAG)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://img.shields.io/badge/Curiosity_driven._Problem_solving_focused.-1A1B27?style=for-the-badge&amp;color=1A1B27">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=23&amp;pause=1200&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=60&amp;lines=Turning+data+into+intelligence;Exploring+Deep+Learning+%26+Computer+Vision;Connecting+LLMs%2C+RAG+%26+AI+Agents;Curiosity-driven.+Problem-solving+focused." alt="Animated introduction: turning data into intelligence; deep learning and computer vision; LLMs, RAG and AI agents; curiosity-driven and problem-solving focused.">
+</picture>
 
-Research PDFs become searchable text, tables, and figures. Answers link back to **supporting evidence and source pages**, so you can inspect what the model used.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makrious-ayman-84985621b/) [![Email](https://img.shields.io/badge/Email-Say_Hello-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maaakrious2004@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MakCoder-2004)
 
-<sub>Python / FastAPI / LangChain / Chroma / PostgreSQL / React</sub>
+**Curious about intelligence. Serious about engineering.**
 
-### [Natural Language to SQL](https://github.com/MakCoder-2004/Natural-Language-to-SQL)
+</div>
 
-Ask a question, inspect the SQL, and explore your data. Schema-aware generation meets **deterministic validation, query review, and read-only execution**.
+---
 
-<sub>Python / FastAPI / PostgreSQL / pgvector / React</sub>
+<!-- ======================== ABOUT ======================== -->
+## 👋 A little about me
 
-### [CV Tailor](https://github.com/MakCoder-2004/ATS-CV-Creator)
+I'm **Makrious Ayman**, an **AI Engineer** driven by curiosity and a love for solving difficult problems. I'm fascinated by how machines **learn from data, understand language, and make sense of the visual world**.
 
-A **local-first Windows CV workbench** with source-linked wording, explicit approval before model runs, and PDF/Word export. You review the content before it leaves the workspace or becomes a document.
+My interests bring together **machine learning, deep learning, computer vision, and generative AI**. I enjoy understanding the ideas behind a model just as much as figuring out how to make it useful outside a notebook.
 
-<sub>Electron / React / TypeScript / SQLite / Pi SDK</sub>
+- 🧠 **My focus:** intelligent systems that connect data, models, and software.
+- 👁️ **What fascinates me:** visual understanding, language, and the reasoning behind an answer.
+- 🧩 **My foundation:** algorithms, data structures, and a competitive-programming mindset.
+- ⚡ **What keeps me going:** a difficult question, a new idea, and the chance to understand something better.
 
-### Developer tools & experiments
+```yaml
+name: Makrious Ayman
+role: AI Engineer
+focus:
+  - Machine Learning & Deep Learning
+  - Generative AI
+interests:
+  - Computer Vision & NLP
+  - LLMs, RAG & AI Agents
+mindset: Stay curious. Keep improving.
+```
 
-- **[My Pi Setup](https://github.com/MakCoder-2004/pi-maks-version)** — a sanitized coding-agent setup with custom memory and workflow extensions, Windows fixes, and an inventory of upstream tools.
-- **[Maks Agentic Workflow](https://github.com/MakCoder-2004/maks-agentic-workflow)** — a curated workflow connecting existing upstream planning, implementation, review, and release skills, with attribution preserved.
-- **[Webcam Image Classifier](https://github.com/MakCoder-2004/Training-And-Predicting-Real-Time-Captures-on-Web)** — train and test an image classifier in the browser using your webcam, with live predictions and model export.
+<!-- ======================== INTERESTS ======================== -->
+## 🔭 What I'm exploring
 
-## How I build
+### 🤖 Generative AI & language
 
-- **Evidence before confidence.** Ground answers in sources and make the supporting context inspectable.
-- **Models propose; software checks.** Use explicit validation, permissions, and human review where they matter.
-- **Local-first, not privacy by slogan.** Keep workspace data local where practical and make external model calls explicit.
-- **Useful from end to end.** Build the data pipeline, API, and interface—not just the notebook.
+LLMs, retrieval-augmented generation, AI agents, and more reliable ways to connect models with knowledge.
 
-## Tools I work with
+### 👁️ Computer vision & deep learning
 
-| Area | Technologies |
-| :--- | :--- |
-| **Languages** | Python, TypeScript, JavaScript, C++, SQL |
-| **AI & retrieval** | LangChain, Hugging Face, Chroma, pgvector, TensorFlow, scikit-learn |
-| **Vision & data** | OpenCV, YOLO, Docling, Pandas, NumPy |
-| **Applications** | React, Next.js, Electron, FastAPI, REST APIs |
-| **Storage & tooling** | PostgreSQL, SQLite, Redis, Docker, Git, GitHub |
+Image understanding, detection, neural networks, and the patterns hidden in visual data.
 
-## Notes worth sharing
+### ⚙️ The engineering around AI
 
-I turn what I explore into practical references, code, and project collections:
+Model evaluation, efficient pipelines, APIs, deployment, and the software that brings everything together.
 
-- **[AI Engineering](https://github.com/MakCoder-2004/AI-Engineering-Sheet)** — transformers, LLMs, RAG, agents, and deployment.
-- **[Machine Learning](https://github.com/MakCoder-2004/Machine-Learning-Engineering-Sheet)** — foundations, workflows, and hands-on implementations.
-- **[Computer Vision](https://github.com/MakCoder-2004/Computer-Vision-Engineering-Sheet)** — classification, detection, segmentation, and tooling.
-- **[Computer Vision Projects](https://github.com/MakCoder-2004/Computer-Vision-Projects)** — experiments in detection, tracking, OCR, and face recognition.
+---
 
-<details>
-<summary><b>Certifications & technical training</b></summary>
+<!-- ======================== TECH STACK ======================== -->
+## 🧰 My toolkit
 
-<br>
+<div align="center">
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://skillicons.dev/icons?i=python&amp;theme=dark">
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Animated Python icon" width="72" height="72">
+</picture>
+&nbsp;&nbsp;&nbsp;
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://skillicons.dev/icons?i=docker&amp;theme=dark">
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Animated Docker icon" width="72" height="72">
+</picture>
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,cpp,typescript,javascript&amp;theme=dark" alt="Python, C++, TypeScript, JavaScript" height="48">
+
+### AI · machine learning · vision
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=tensorflow,sklearn,opencv,huggingface&amp;theme=dark" alt="TensorFlow, scikit-learn, OpenCV, Hugging Face" height="48">
+
+![LangChain](https://img.shields.io/badge/LangChain-1A1B27?style=flat-square&logo=langchain&logoColor=38BDF8) ![YOLO](https://img.shields.io/badge/YOLO-1A1B27?style=flat-square&logo=yolo&logoColor=A78BFA) ![Pandas](https://img.shields.io/badge/Pandas-1A1B27?style=flat-square&logo=pandas&logoColor=38BDF8) ![NumPy](https://img.shields.io/badge/NumPy-1A1B27?style=flat-square&logo=numpy&logoColor=A78BFA) ![Chroma](https://img.shields.io/badge/Chroma-1A1B27?style=flat-square&logoColor=38BDF8)
+
+### Applications · data · deployment
+
+<img src="https://skillicons.dev/icons?i=fastapi,react,nextjs,postgres,sqlite,redis,docker,git&amp;theme=dark&amp;perline=8" alt="FastAPI, React, Next.js, PostgreSQL, SQLite, Redis, Docker, Git" width="480">
+
+</div>
+
+---
+
+<!-- ======================== GITHUB ======================== -->
+## 📊 My GitHub pulse
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MakCoder-2004&amp;theme=tokyonight" width="340" alt="Live GitHub statistics for MakCoder-2004">
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://streak-stats.demolab.com?user=MakCoder-2004&amp;theme=tokyonight&amp;hide_border=true&amp;disable_animations=true">
+  <img src="https://streak-stats.demolab.com?user=MakCoder-2004&amp;theme=tokyonight&amp;hide_border=true&amp;disable_animations=true" width="500" alt="Live GitHub contribution streak for MakCoder-2004">
+</picture>
+
+</div>
+
+<!-- ======================== TRAINING ======================== -->
+## 📚 Foundations I keep building on
 
 - **Deep Learning Specialization** — DeepLearning.AI
 - **Machine Learning Specialization** — Stanford / DeepLearning.AI
 - **Python 3 Programming** — University of Michigan
-- **Machine Learning Training** — National Telecommunication Institute; 120+ hours of foundations and practical applications
-- **Competitive Programming Training** — Coach Academy; algorithms, data structures, and problem-solving
-
-</details>
+- **Machine Learning Training** — National Telecommunication Institute · 120+ hours
+- **Competitive Programming Training** — Coach Academy
 
 ---
 
-### Have a problem worth building for?
+<!-- ======================== CONNECT ======================== -->
+<div align="center">
 
-I'm interested in **AI / ML engineering, RAG, computer vision, and software engineering opportunities**, and in collaborating on practical tools.
+### Let's talk AI, exchange ideas, and make something meaningful.
 
-**[Let's connect on LinkedIn](https://www.linkedin.com/in/makrious-ayman-84985621b/)** or **[send me an email](mailto:maaakrious2004@gmail.com)**. If a project helps you, a star is always appreciated.
+I'm open to **AI engineering opportunities**, thoughtful conversations, and collaborations with people who love solving problems.
+
+[![Let's connect](https://img.shields.io/badge/Let%27s_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makrious-ayman-84985621b/) [![Say hello](https://img.shields.io/badge/Drop_me_an_email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maaakrious2004@gmail.com)
+
+**Thanks for stopping by. Stay curious. ✨**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2,50:6366F1,100:A855F7&amp;height=100&amp;section=footer" width="100%" alt="Cyan to violet wave footer">
+
+</div>

@@ -1,9 +1,8 @@
 {
-  "name": "makrious-profile-artwork",
+  "name": "makrious-profile-readme",
   "private": true,
   "type": "module",
   "scripts": {
-    "artwork": "node design/render.mjs && python design/encode.py",
     "verify": "node design/verify.mjs"
   },
   "devDependencies": {
