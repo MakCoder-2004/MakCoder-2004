@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "artwork": "node design/render-header.mjs && python design/header-gif.py",
     "verify": "node design/verify.mjs"
   },
   "devDependencies": {

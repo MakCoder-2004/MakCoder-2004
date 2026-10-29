@@ -2,8 +2,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2%2C50:6366F1%2C100:A855F7&amp;height=240&amp;section=header&amp;text=Makrious%20Ayman&amp;fontSize=52&amp;fontColor=ffffff&amp;fontAlignY=36&amp;desc=AI%20Engineer&amp;descAlignY=58&amp;descSize=24">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2,50:6366F1,100:A855F7&amp;height=240&amp;section=header&amp;text=Makrious%20Ayman&amp;fontSize=52&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=36&amp;desc=AI%20Engineer&amp;descAlignY=58&amp;descSize=24" width="100%" alt="Makrious Ayman — AI Engineer">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/neural-header.png">
+  <img src="./assets/neural-header.gif" width="960" alt="Makrious Ayman — AI Engineer, surrounded by animated cyan and violet neural signals">
 </picture>
 
 ### Machine Learning · Deep Learning · Generative AI
@@ -81,11 +81,15 @@ Model evaluation, efficient pipelines, APIs, deployment, and the software that b
 
 <img src="https://skillicons.dev/icons?i=python,cpp,typescript,javascript&amp;theme=dark" alt="Python, C++, TypeScript, JavaScript" height="48">
 
-### AI · machine learning · vision
+### AI frameworks · machine learning · vision
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=tensorflow,sklearn,opencv,huggingface&amp;theme=dark" alt="TensorFlow, scikit-learn, OpenCV, Hugging Face" height="48">
+<img src="https://go-skill-icons.vercel.app/api/icons?i=pytorch,tensorflow,sklearn,opencv,huggingface&amp;theme=dark" alt="PyTorch, TensorFlow, scikit-learn, OpenCV, Hugging Face" height="48">
 
-![LangChain](https://img.shields.io/badge/LangChain-1A1B27?style=flat-square&logo=langchain&logoColor=38BDF8) ![YOLO](https://img.shields.io/badge/YOLO-1A1B27?style=flat-square&logo=yolo&logoColor=A78BFA) ![Pandas](https://img.shields.io/badge/Pandas-1A1B27?style=flat-square&logo=pandas&logoColor=38BDF8) ![NumPy](https://img.shields.io/badge/NumPy-1A1B27?style=flat-square&logo=numpy&logoColor=A78BFA) ![Chroma](https://img.shields.io/badge/Chroma-1A1B27?style=flat-square&logoColor=38BDF8)
+### LLMs · agents · orchestration
+
+![LangChain](https://img.shields.io/badge/LangChain-1A1B27?style=for-the-badge&logo=langchain&logoColor=38BDF8) ![LangGraph](https://img.shields.io/badge/LangGraph-1A1B27?style=for-the-badge&logo=langgraph&logoColor=A78BFA)
+
+![YOLO](https://img.shields.io/badge/YOLO-1A1B27?style=flat-square&logo=yolo&logoColor=A78BFA) ![Pandas](https://img.shields.io/badge/Pandas-1A1B27?style=flat-square&logo=pandas&logoColor=38BDF8) ![NumPy](https://img.shields.io/badge/NumPy-1A1B27?style=flat-square&logo=numpy&logoColor=A78BFA) ![Chroma](https://img.shields.io/badge/Chroma-1A1B27?style=flat-square&logoColor=38BDF8)
 
 ### Applications · data · deployment
 
@@ -109,15 +113,6 @@ Model evaluation, efficient pipelines, APIs, deployment, and the software that b
 
 </div>
 
-<!-- ======================== TRAINING ======================== -->
-## 📚 Foundations I keep building on
-
-- **Deep Learning Specialization** — DeepLearning.AI
-- **Machine Learning Specialization** — Stanford / DeepLearning.AI
-- **Python 3 Programming** — University of Michigan
-- **Machine Learning Training** — National Telecommunication Institute · 120+ hours
-- **Competitive Programming Training** — Coach Academy
-
 ---
 
 <!-- ======================== CONNECT ======================== -->
@@ -130,7 +125,5 @@ I'm open to **AI engineering opportunities**, thoughtful conversations, and coll
 [![Let's connect](https://img.shields.io/badge/Let%27s_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/makrious-ayman-84985621b/) [![Say hello](https://img.shields.io/badge/Drop_me_an_email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maaakrious2004@gmail.com)
 
 **Thanks for stopping by. Stay curious. ✨**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0891B2,50:6366F1,100:A855F7&amp;height=100&amp;section=footer" width="100%" alt="Cyan to violet wave footer">
 
 </div>

@@ -1,36 +1,37 @@
-# Personal profile design
+# Personal AI Engineer profile
 
-## Direction
+## Visual direction
 
-A personal **AI Engineer** introduction inspired by the user's supplied README: expressive cyan/violet waves, an animated typing introduction, animated Python/Docker icons, colorful technology rows, GitHub statistics and social badges. No project showcases, repository lists, degree/status wording, fabricated credentials, or static studio/portfolio banner.
+A personal introduction, not a project portfolio: **Makrious Ayman / AI Engineer**, animated typing, colorful tools, and GitHub statistics. No repository showcases, student wording, training/certification section, or invented credentials.
 
-- Palette: cyan `#38BDF8`, violet `#A78BFA`, indigo `#6366F1`, dark card `#1A1B27`, white header text.
-- Hierarchy: name and AI Engineer role → typing animation/social links → personal introduction/interests → toolkit → GitHub pulse → existing certifications/training → invitation to connect.
-- Motion: SVG typing and animated technology icons, following the supplied reference. Picture sources replace animated elements for reduced-motion preferences where supported.
-- Content: AI Engineer identity, established interests and tools, competitive-programming background, existing contact details and certifications. No employer, seniority, publication count, follower count, or experience years are invented.
-- GitHub compatibility: native Markdown/HTML and image widgets only; no inline page scripts, styles, or JavaScript dependencies in the README.
+The new header replaces the wave banner with a **neural-signal composition**: cyan neurons on the left, violet neurons on the right, and a clear name/role in the center. It has no project illustration, marketing headline, or wave-shaped footer.
 
-The previous custom banner, pipeline animation, fonts, project lists, and generation scripts have been removed. Node dependencies are development-only preview checks.
+- Palette: GitHub charcoal `#0D1117`, signal cyan `#38BDF8`, violet `#A78BFA`, role blue `#7DD3FC`, white `#F0F6FC`.
+- Type: Bahnschrift display and Segoe UI role, with sans-serif fallbacks; system fonts are captured into images, not distributed.
+- Layout: centered name and role; neural connections flank the text without crossing it. Native Markdown keeps the biography and tools readable on mobile.
+- Motion: original HTML/CSS signal animation captured as a 32-frame, 3.2-second GIF (~184 KB). A 2× PNG is selected for reduced motion. Existing typing/Python/Docker widgets retain their reduced-motion alternatives.
+- Toolkit: Python/C++/TypeScript/JavaScript; PyTorch/TensorFlow/scikit-learn/OpenCV/Hugging Face; prominent LangChain and LangGraph badges; existing data and application tools.
 
-## Preview checks
+## Rebuild and verify
+
+Requirements: Node.js, Python with Pillow, and Chrome or Playwright Chromium. No new application framework.
 
 ```bash
 npm ci
-# If Chrome is unavailable: npx playwright install chromium
+npm run artwork
 npm run verify
 ```
 
-The checker uses GitHub's Markdown API via authenticated `gh`, loads every widget in Chromium, checks image decoding and alt text, confirms reduced-motion image selection, rejects portfolio links/academic-status wording, and captures desktop/tablet/mobile light and dark screenshots under ignored `.preview/`. Set `CHROME_PATH` for an alternative Chromium executable.
+`design/header.html` contains the original HTML/CSS graphic. `render-header.mjs` captures real browser frames and a high-resolution static screenshot; `header-gif.py` encodes the GIF. Source frames live under ignored `.frames/header/`. Set `CHROME_PATH` to use another Chromium browser.
 
-Screenshots are local previews of GitHub-rendered Markdown, not proof of the live profile changing. Changes remain on the review PR until the owner authorizes merging. The separate account biography is outside this change.
+The verifier uses GitHub's Markdown API through authenticated `gh`, loads the image widgets, checks alt text and reduced-motion selection, rejects removed sections/project links, confirms the requested framework names, and captures desktop/tablet/mobile light/dark previews under ignored `.preview/`. These are local previews; the separate GitHub account biography is outside this change. The owner controls merging the review PR.
 
-## Widget sources and limits
+## External widgets
 
-- [Capsule Render](https://github.com/kyechan99/capsule-render): wave header/footer.
-- [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg): typing animation.
-- [Tech Stack Generator](https://techstack-generator.vercel.app/): animated Python and Docker icons.
+- [Readme Typing SVG](https://github.com/DenverCoder1/readme-typing-svg): typing introduction.
+- [Tech Stack Generator](https://techstack-generator.vercel.app/): animated Python/Docker icons.
 - [Skill Icons](https://skillicons.dev/) and [Go Skill Icons](https://github.com/LelouchFR/skill-icons): technology rows.
-- [Shields.io](https://shields.io/): social/technology badges.
-- [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) and [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats): dynamic statistics, not hard-coded achievements.
+- [Shields.io](https://shields.io/): social and framework badges.
+- [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) and [GitHub Readme Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats): dynamic statistics; streak entrance animation is disabled so numbers remain readable.
 
-These are external services; their availability, cache freshness and animation behavior through GitHub's image proxy are not guaranteed. The commonly used public GitHub Readme Stats endpoint returned 503 and Activity Graph returned 402 during research, so neither is embedded. No scheduled workflows, tracking counters, or third-party GitHub tokens are added.
+External availability/cache freshness is not guaranteed. The public Readme Stats and Activity Graph endpoints were unavailable during research and are not embedded. No scheduled workflows, tracking counters, or third-party GitHub tokens are added.

@@ -11,6 +11,10 @@ const markdown = await readFile(path.join(root, 'README.md'), 'utf8');
 assert(!/\bstudent\b|Alexandria University|CGPA/i.test(markdown), 'No academic-status wording');
 assert(!/https:\/\/github\.com\/MakCoder-2004\/[\w-]+|tab=repositories|Selected work|Featured projects/i.test(markdown), 'No project showcases or repository links');
 assert(markdown.includes('AI Engineer'), 'Identity must be AI Engineer');
+assert(!/Foundations I keep building on|Specialization|120\+ hours|type=waving/.test(markdown), 'Remove foundations/training and old wave artwork');
+for (const tool of ['LangChain', 'LangGraph', 'PyTorch', 'TensorFlow', 'scikit-learn', 'Hugging Face']) {
+  assert(markdown.includes(tool), `${tool} must appear in the toolkit`);
+}
 assert(!/<script\b|<style\b|<[^>]+\sstyle\s*=/i.test(markdown), 'No unsupported README CSS or JavaScript');
 const result = spawnSync('gh', ['api', 'markdown', '--input', '-'], {
   input: JSON.stringify({ text: markdown, mode: 'gfm', context: 'MakCoder-2004/MakCoder-2004' }),
@@ -30,9 +34,14 @@ body{margin:0;background:var(--bgColor-default);color:var(--fgColor-default)}
 @media(max-width:600px){.markdown-body{border:0;padding:16px;margin:0}.preview-label{margin:12px 0 0;padding:0 16px}}
 </style><body class="markdown-body" style="max-width:none;padding:0;border:0"><div class="preview-label">MakCoder-2004 / README.md · Local preview using GitHub-rendered Markdown</div><article class="markdown-body">${rendered}</article></body></html>`;
 await writeFile(path.join(root, '.preview/index.html'), html);
-const server = createServer((req, res) => {
-  if (req.url === '/') res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' }).end(html);
-  else res.writeHead(404).end();
+const server = createServer(async (req, res) => {
+  if (req.url === '/') return res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' }).end(html);
+  const asset = { '/assets/neural-header.png': 'image/png', '/assets/neural-header.gif': 'image/gif' }[req.url];
+  if (!asset) return res.writeHead(404).end();
+  try {
+    const content = await readFile(path.join(root, req.url.slice(1)));
+    res.writeHead(200, { 'content-type': asset }).end(content);
+  } catch { res.writeHead(404).end(); }
 });
 await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const browser = await launchBrowser();
@@ -69,10 +78,10 @@ try {
     }));
     const reduced = sample.reducedMotion === 'reduce';
     assert.equal(sources.length, 5);
-    assert(sources[0].includes('text=Makrious%20Ayman') && sources[0].includes('desc=AI%20Engineer'), 'Header source must preserve full URL, including gradient commas');
+    assert(sources[0].endsWith(sample.reducedMotion === 'reduce' ? '/assets/neural-header.png' : '/assets/neural-header.gif'), 'Select the new local neural header with static reduced-motion fallback');
     // GitHub proxies external src/srcset through camo; inspect canonical URLs.
     if (reduced) {
-      assert(!sources[0].includes('animation='), 'Static header for reduced motion');
+      assert(sources[0].endsWith('.png'), 'Static header for reduced motion');
       assert(sources[1].includes('img.shields.io'), 'Static tagline for reduced motion');
       assert(sources[2].includes('skillicons.dev') && sources[3].includes('skillicons.dev'), 'Static technology icons for reduced motion');
       assert(sources[4].includes('disable_animations=true'), 'Disable streak animation');
