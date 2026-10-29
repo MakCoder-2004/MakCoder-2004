@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="20" viewBox="0 0 1000 20" role="img">
+<defs><linearGradient id="l"><stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset=".3" stop-color="#00e5ff"/><stop offset=".7" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient><filter id="g" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<style>.m{font-family:'Fira Code','SF Mono','Cascadia Code',Consolas,'Courier New',monospace}.s{font-family:'Segoe UI',-apple-system,Ubuntu,'Helvetica Neue',Arial,sans-serif}</style>
+<rect y="9" width="1000" height="2" fill="url(#l)"/><circle cy="10" r="7" fill="#00e5ff" filter="url(#g)"><animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="4s" repeatCount="indefinite"/></circle><circle cy="10" r="3" fill="#fff"><animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="4s" repeatCount="indefinite"/></circle>
+</svg>
