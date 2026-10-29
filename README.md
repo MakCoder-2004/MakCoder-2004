@@ -20,7 +20,7 @@
 ### 🧰 Toolbox
 
 <p align="center">
-  <img src="assets/skills.svg" width="100%" alt="AI engineering and ML/DL toolbox: LangChain, LangGraph, Ollama, llama.cpp, PyTorch, TensorFlow, scikit-learn, Transformers, Hugging Face, Chroma, AI Agents, MCP, LLMOps, Python, OpenCV, Docker and more">
+  <img src="assets/skills.svg" width="100%" alt="AI engineering and ML/DL toolbox: Machine Learning, Deep Learning, LangChain, LangGraph, Ollama, llama.cpp, PyTorch, TensorFlow, scikit-learn, Transformers, AI Agents, MCP, LLMOps, fine-tuning, SFT, PEFT, LoRA, QLoRA, DPO, RLHF, instruction tuning and quantization">
 </p>
 
 ### 🚀 Featured Projects
@@ -34,37 +34,21 @@
   <a href="https://github.com/MakCoder-2004?tab=repositories"><img src="assets/card-6.svg" width="49%" alt="More on my GitHub  →"></a>
 </p>
 
-### 🔭 At a Glance
-
-| | |
-|---|---|
-| **🔨 Building now** | Multimodal RAG for research papers · Natural-language → SQL analytics · Agentic dev workflows |
-| **🤖 AI Engineering** | AI agents · LLMs · RAG · orchestration · model deployment |
-| **🧠 Training** | Machine Learning, National Telecommunication Institute (120+ hrs) · Competitive Programming, Coach Academy |
-| **🏅 Certified** | Deep Learning Specialization · Machine Learning Specialization · Python 3 Programming |
-| **💼 Open to** | ML Engineering · AI R&D · Computer Vision / NLP · MLOps · Software Engineering |
-
 ### 📊 Activity
 
 <p align="center">
-  <img width="360" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MakCoder-2004&theme=tokyonight" alt="GitHub stats">
-  <img width="360" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MakCoder-2004&theme=tokyonight" alt="Top languages by commit activity">
-</p>
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=MakCoder-2004&theme=tokyonight&hide_border=true&disable_animations=true" alt="Streak">
 </p>
-<p align="center">
-  <img width="100%" src="https://ghchart.rshah.org/00e5ff/MakCoder-2004" alt="GitHub contribution calendar">
-</p>
 
-<!-- 🐍 OPTIONAL: contribution snake. Add .github/workflows/snake.yml, run it once, then uncomment.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake-dark.svg">
-    <img alt="snake" src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake.svg">
-  </picture>
-</p>
--->
+### 🐍 Watch My Contributions Get Eaten
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake.svg">
+  <img alt="Animated snake eating MakCoder-2004's GitHub contributions" src="https://raw.githubusercontent.com/MakCoder-2004/MakCoder-2004/output/github-snake-dark.svg" width="100%">
+</picture>
+</div>
 
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="Let's build something impactful">
